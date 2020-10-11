@@ -1,0 +1,30 @@
+<div class="col-md-12 mt-3">
+<h1>{{page_title}}</h1>
+	<p *ngIf="status != 'success'">
+		Crea una nueva categoria
+	</p>
+	<hr/>
+
+<!--
+	<div class="alert alert-success col-md-5 mt-3" *ngIf="status == 'success'">
+		El registro se ha completado correctamente, <a [routerLink]="['/login']">logeate aqui</a>
+	</div>
+	<div class="alert alert-danger col-md-5" *ngIf="status == 'error'">
+		El registro no se completo, 
+	</div>
+-->
+		<!--formulario de crear categoria-->
+		<form #categoryForm="ngForm" (ngSubmit)="onSubmit(categoryForm)" class="col-md-5">
+			<div class="form-group">
+			<label for="name">Nombre</label>	
+			<input type="text" name="name" class="form-control" #name="ngModel" [(ngModel)]="category.name">
+			<small *ngIf="!name.valid && name.touched" class="invalid-feedback d-block">
+				El nombre no es valido
+			</small>
+
+			</div>
+			<input type="submit" value="Guardar" class="btn btn-success" [disabled]="categoryForm.invalid" />
+		</form>
+		<br>
+		
+</div>

@@ -1,0 +1,649 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"repo",
+				"response\tparameter"
+			],
+			[
+				"user",
+				"user_id\tproperty"
+			],
+			[
+				"ide",
+				"IdentityGuard\talias"
+			],
+			[
+				"_",
+				"_userService\tproperty"
+			],
+			[
+				"exp",
+				"export\tkeyword"
+			],
+			[
+				"get",
+				"getPosts"
+			],
+			[
+				"post",
+				"posts"
+			],
+			[
+				"su",
+				"subscribe\tmethod"
+			],
+			[
+				"_ro",
+				"_router\tproperty"
+			],
+			[
+				"catego",
+				"CategoryService"
+			],
+			[
+				"por",
+				"providers\tproperty"
+			],
+			[
+				"g",
+				"global\tscript"
+			],
+			[
+				"ca",
+				"CategoryDetailComponent\tclass"
+			],
+			[
+				"pos",
+				"post-edit"
+			],
+			[
+				"imp",
+				"import\tkeyword"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"es",
+				"estado"
+			],
+			[
+				"nu",
+				"number\tkeyword"
+			],
+			[
+				"com",
+				"component\tproperty"
+			],
+			[
+				"b",
+				"body\tTag"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"d",
+				"datos\tproperty"
+			],
+			[
+				"id",
+				"id\tlet"
+			],
+			[
+				"ge",
+				"getPost\tmethod"
+			],
+			[
+				"para",
+				"params\tparameter"
+			],
+			[
+				"ro",
+				"Router\talias"
+			],
+			[
+				"im",
+				"import\timports a module …"
+			],
+			[
+				"Post",
+				"Post\talias"
+			],
+			[
+				"i",
+				"inicio"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"ob",
+				"Observable\talias"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"posts",
+				"posts\tproperty"
+			],
+			[
+				"m",
+				"models\tdirectory"
+			],
+			[
+				"h",
+				"_http"
+			],
+			[
+				"http",
+				"HttpHeaders\talias"
+			],
+			[
+				"s",
+				"status\tproperty"
+			],
+			[
+				"p",
+				"post.service\tscript"
+			],
+			[
+				"ps",
+				"post\tscript"
+			],
+			[
+				"form",
+				"from"
+			],
+			[
+				"fr",
+				"form-control"
+			],
+			[
+				"DI",
+				"DIV\tTag"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"Pos",
+				"Post\talias"
+			],
+			[
+				"se",
+				"services"
+			],
+			[
+				"comp",
+				"components"
+			],
+			[
+				"Cate",
+				"CategoryService\talias"
+			],
+			[
+				"Htt",
+				"HttpHeaders\talias"
+			],
+			[
+				"le",
+				"let\tkeyword"
+			],
+			[
+				"CATE",
+				"category\tparameter"
+			],
+			[
+				"S",
+				"stringify\tmethod"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"pr",
+				"private\tkeyword"
+			],
+			[
+				"pro",
+				"providers\tproperty"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"lo",
+				"log\tmethod"
+			],
+			[
+				"true",
+				"true\tkeyword"
+			],
+			[
+				"l",
+				"log\tmethod"
+			],
+			[
+				"con",
+				"console\tvar"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"o",
+				"Observable"
+			],
+			[
+				"c",
+				"Content-Type"
+			],
+			[
+				"j",
+				"JSON"
+			],
+			[
+				"como",
+				"components"
+			],
+			[
+				"un",
+				"undefined"
+			],
+			[
+				"t",
+				"token"
+			],
+			[
+				"st",
+				"status"
+			],
+			[
+				"col",
+				"col-md-5"
+			],
+			[
+				"Use",
+				"UserService"
+			],
+			[
+				"H",
+				"HttpClientModule"
+			],
+			[
+				"regis",
+				"registerForm"
+			],
+			[
+				"regi",
+				"registerForm"
+			],
+			[
+				"Ro",
+				"Routes"
+			],
+			[
+				"Rou",
+				"RouterModule"
+			],
+			[
+				"R",
+				"RegisterComponent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "blog-angular/src/app/components/post-new/post-new.component.html",
+			"settings":
+			{
+				"buffer_size": 1656,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api-rest-laravel/app/Helpers/JwtAuth.php",
+			"settings":
+			{
+				"buffer_size": 2218,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/master-fullstack"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/user.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/login/login.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/register/register.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/user-edit/user-edit.component.ts",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/app/User.php",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/app/Http/Controllers/UserController.php",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/login/login.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/register/register.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-new/post-new.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-edit/post-edit.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/identity.guard.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.routing.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.module.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/category-detail/category-detail.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/home/home.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/category-detail/category-detail.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/category.service.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-edit/post-edit.component.spec.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.component.html",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/app/Post.php",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/app/Http/Controllers/PostController.php",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/styles.css",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-detail/post-detail.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/post.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-new/post-new.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/home/home.component.html",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/app.js",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/post.service.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/node_modules/froala-editor/html/3rd-party/require_js/js/app.js",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/public/js/app.js",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/post-detail/post-detail.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/app.component.ts",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/app/Helpers/JwtAuth.php",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/category-new/category-new.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/category-new/category-new.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/user-edit/user-edit.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/models/category.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/package.json",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/user.service.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/node_modules/angular-froala-wysiwyg/view/view.directive.d.ts",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/vendor/symfony/http-foundation/ServerBag.php",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/app/Http/Middleware/Cors.php",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/app/Http/Kernel.php",
+		"/C/wamp64/www/master-fullstack/api-rest-laravel/vendor/mockery/mockery/docs/conf.py",
+		"/C/wamp64/www/master-fullstack/blog-angular/node_modules/mime-types/README.md",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/index.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/login/login.component.spec.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/services/global.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/error/error.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/componet/error/error.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/componet/error/error.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/components/error/error.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/componet/home/home.component.ts",
+		"/C/wamp64/www/master-fullstack/blog-angular/src/app/componet/home/home.component.html",
+		"/C/wamp64/www/master-fullstack/blog-angular/package-lock.json",
+		"/C/wamp64/www/master-fullstack/blog-angular/angular.json",
+		"/C/xampp/htdocs/deber/tareapablo.php",
+		"/C/xampp/htdocs/deber/tarea.php",
+		"/C/xampp/htdocs/deber/sacsa.php"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"C:\\wamp64\\www\\master-fullstack"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"app.js",
+			".htaccess",
+			".h"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "blog-angular/src/app/components/post-new/post-new.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								623,
+								623
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "api-rest-laravel/app/Helpers/JwtAuth.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "master-fullstack.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app.js",
+				"api-rest-laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Presets\\vue-stubs\\app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 420.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

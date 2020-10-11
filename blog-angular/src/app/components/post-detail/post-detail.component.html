@@ -1,0 +1,25 @@
+<div class="col-md-12" *ngIf="!post">
+Cargando..
+	
+</div>
+
+
+<div class="col-md-12 mt-3" *ngIf="post">
+<h1>{{post.title}}</h1>
+<hr/>
+	<p>
+		{{post.category.name}} - {{post.user.name + ' ' + post.user.surname}}		
+	</p>
+
+<hr/>
+<p [innerHtml]="post.content"></p>	
+
+
+<div class="progress" >
+  <div class="progress-bar bg-success text-dark " role="progressbar" style="width: {{post.estado}}%;"  aria-valuenow="25" aria-valuemin="25" aria-valuemax="100">{{post.estado}}% Completado</div>
+</div>
+<div class="col-md-12 mt-3" *ngIf="post.estado==100">
+<h5>TRABAJO COMPLETADO!!!</h5>
+</div>
+
+</div>

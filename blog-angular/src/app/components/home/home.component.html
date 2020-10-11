@@ -1,0 +1,78 @@
+<div class="loading" *ngIf="!posts">
+	Cargando..
+</div>
+<div class="container-fluid mt-3" *ngIf="posts">
+
+<h1>{{page_title}}</h1>
+<hr>
+<div class="card-columns">
+	<article class="card w-100" *ngFor="let post of posts">
+		<div class="card-header">
+			<h3>
+		<a [routerLink]="['/entrada', post.id]" >{{post.title}}</a>
+			</h3>
+		</div>
+
+		<div class="card-body">
+			<!--image-->
+			<div class="post-image" *ngIf="post.image">
+		<img src="{{url + 'post/image/' + post.image}}" class="w-100" />
+			</div>
+
+			<div class="post-image" *ngIf="!post.image">
+		<img src="assets/images/unnamed.jpg" class="w-100" />
+			</div>
+		<!--bonotes-->
+		<div class="post-buttons mt-3" >
+			<a [routerLink]="['/entrada', post.id]" class="btn btn-success mr-2">Leer</a>
+			<span *ngIf="identity && identity.sub == post.user_id">
+			<a style="color: #FFFFFF" [routerLink]="['/editar-entrada', post.id]" class="btn btn-warning mr-2">Editar</a>
+			<a style="color: #FFFFFF" (click)="deletePost(post.id)" class="btn btn-danger" data-dismiss="modal">Finalizada</a>
+
+			</span>
+			<span *ngIf="post.estado == 100">
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Calificanos</button>
+
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ 			<div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Calificanos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <select name="servicio">
+   			<option value="1">Malo</option> 
+   			<option value="2">Regular</option> 
+  			<option value="3">Bueno</option>
+   			<option value="10">Exelente</option> 
+		</select>
+       
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Dejanos el porque!</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" [routerLink]="['/inicio']" data-dismiss="modal">calificar</button>
+      </div>
+    </div>
+  </div>
+</div>
+			</span>
+		</div>
+
+		</div>
+	</article>
+</div>
+
+</div>
+
+
